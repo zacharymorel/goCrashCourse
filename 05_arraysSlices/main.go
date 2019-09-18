@@ -20,6 +20,7 @@ func main() {
 	// - Slices - //
 	fruitArrSlice := []string{"apple", "orange", "grape"}
 	fmt.Println(fruitArrSlice)
-	fmt.Println(len(fruitArrSlice))
+	fmt.Println(len(fruitArrSlice)) // len() counts the number of items in the array/ slice
 	fmt.Println(fruitArrSlice[1])
+	fmt.Println(fruitArrSlice[1:2]) // we get a range
 }
